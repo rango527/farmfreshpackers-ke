@@ -1,0 +1,1532 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Biolife\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-20 03:22+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: comments.php:37
+msgid " COMMENTS"
+msgstr ""
+
+#: framework/theme-functions.php:1078
+msgid " Sticky"
+msgstr ""
+
+#: framework/theme-functions.php:94 framework/theme-functions.php:1146
+#: templates/blog/blog-grid.php:37 templates/blog/blog-standard.php:31
+#: framework/widgets/widget-recent-blog.php:68
+#: templates/blog/blog-style/content-blog-style-3.php:27
+msgid "%"
+msgstr ""
+
+#: framework/settings/theme-options.php:140
+#: framework/settings/theme-options.php:306
+#: framework/settings/theme-options.php:426
+#: framework/settings/theme-options.php:604
+#: framework/settings/theme-options.php:738
+#: framework/settings/theme-options.php:872
+msgid "(Screen resolution of device < 480px)"
+msgstr ""
+
+#: framework/settings/theme-options.php:76
+#: framework/settings/theme-options.php:246
+#: framework/settings/theme-options.php:362
+#: framework/settings/theme-options.php:540
+#: framework/settings/theme-options.php:674
+#: framework/settings/theme-options.php:808
+msgid "(Screen resolution of device >= 1200px < 1500px )"
+msgstr ""
+
+#: framework/settings/theme-options.php:60
+#: framework/settings/theme-options.php:231
+#: framework/settings/theme-options.php:346
+#: framework/settings/theme-options.php:524
+#: framework/settings/theme-options.php:658
+#: framework/settings/theme-options.php:792
+msgid "(Screen resolution of device >= 1500px )"
+msgstr ""
+
+#: framework/settings/theme-options.php:124
+#: framework/settings/theme-options.php:291
+#: framework/settings/theme-options.php:410
+#: framework/settings/theme-options.php:588
+#: framework/settings/theme-options.php:722
+#: framework/settings/theme-options.php:856
+msgid "(Screen resolution of device >=480  add < 768px)"
+msgstr ""
+
+#: framework/settings/theme-options.php:108
+#: framework/settings/theme-options.php:276
+#: framework/settings/theme-options.php:394
+#: framework/settings/theme-options.php:572
+#: framework/settings/theme-options.php:706
+#: framework/settings/theme-options.php:840
+msgid "(Screen resolution of device >=768px and < 992px )"
+msgstr ""
+
+#: framework/settings/theme-options.php:92
+#: framework/settings/theme-options.php:261
+#: framework/settings/theme-options.php:378
+#: framework/settings/theme-options.php:556
+#: framework/settings/theme-options.php:690
+#: framework/settings/theme-options.php:824
+msgid "(Screen resolution of device >=992px and < 1200px )"
+msgstr ""
+
+#: framework/theme-functions.php:1088 templates/blog/blog-grid.php:25
+#: templates/blog/blog-standard.php:18
+#: woocommerce/product-styles/content-product-style-6.php:45
+#: woocommerce/product-styles/content-product-style-7.php:46
+#: woocommerce/product-styles/content-product-style-5.php:52
+#: templates/blog/blog-style/content-blog-style-7.php:49
+#: templates/blog/blog-style/content-blog-style-2.php:65
+#: templates/blog/blog-style/content-blog-style-4.php:65
+#: templates/blog/blog-style/content-blog-style-6.php:48
+#: templates/blog/blog-style/content-blog-style-5.php:52
+#: templates/blog/blog-style/content-blog-style-3.php:36
+msgid "..."
+msgstr ""
+
+#: framework/theme-functions.php:92 framework/theme-functions.php:1144
+#: templates/blog/blog-grid.php:35 templates/blog/blog-standard.php:29
+#: framework/widgets/widget-recent-blog.php:66
+#: templates/blog/blog-style/content-blog-style-3.php:25
+msgid "0"
+msgstr ""
+
+#: framework/theme-functions.php:93 framework/theme-functions.php:1145
+#: templates/blog/blog-grid.php:36 templates/blog/blog-standard.php:30
+#: framework/widgets/widget-recent-blog.php:67
+#: templates/blog/blog-style/content-blog-style-3.php:26
+msgid "1"
+msgstr ""
+
+#: framework/settings/theme-options.php:62
+#: framework/settings/theme-options.php:78
+#: framework/settings/theme-options.php:94
+#: framework/settings/theme-options.php:110
+#: framework/settings/theme-options.php:126
+#: framework/settings/theme-options.php:142
+#: framework/settings/theme-options.php:233
+#: framework/settings/theme-options.php:248
+#: framework/settings/theme-options.php:263
+#: framework/settings/theme-options.php:278
+#: framework/settings/theme-options.php:293
+#: framework/settings/theme-options.php:308
+#: framework/settings/theme-options.php:348
+#: framework/settings/theme-options.php:364
+#: framework/settings/theme-options.php:380
+#: framework/settings/theme-options.php:396
+#: framework/settings/theme-options.php:412
+#: framework/settings/theme-options.php:428
+#: framework/settings/theme-options.php:526
+#: framework/settings/theme-options.php:542
+#: framework/settings/theme-options.php:558
+#: framework/settings/theme-options.php:574
+#: framework/settings/theme-options.php:590
+#: framework/settings/theme-options.php:606
+#: framework/settings/theme-options.php:660
+#: framework/settings/theme-options.php:676
+#: framework/settings/theme-options.php:692
+#: framework/settings/theme-options.php:708
+#: framework/settings/theme-options.php:724
+#: framework/settings/theme-options.php:740
+#: framework/settings/theme-options.php:794
+#: framework/settings/theme-options.php:810
+#: framework/settings/theme-options.php:826
+#: framework/settings/theme-options.php:842
+#: framework/settings/theme-options.php:858
+#: framework/settings/theme-options.php:874
+msgid "1 item"
+msgstr ""
+
+#: framework/settings/theme-options.php:63
+#: framework/settings/theme-options.php:79
+#: framework/settings/theme-options.php:95
+#: framework/settings/theme-options.php:111
+#: framework/settings/theme-options.php:127
+#: framework/settings/theme-options.php:143
+#: framework/settings/theme-options.php:234
+#: framework/settings/theme-options.php:249
+#: framework/settings/theme-options.php:264
+#: framework/settings/theme-options.php:279
+#: framework/settings/theme-options.php:294
+#: framework/settings/theme-options.php:309
+#: framework/settings/theme-options.php:349
+#: framework/settings/theme-options.php:365
+#: framework/settings/theme-options.php:381
+#: framework/settings/theme-options.php:397
+#: framework/settings/theme-options.php:413
+#: framework/settings/theme-options.php:429
+#: framework/settings/theme-options.php:527
+#: framework/settings/theme-options.php:543
+#: framework/settings/theme-options.php:559
+#: framework/settings/theme-options.php:575
+#: framework/settings/theme-options.php:591
+#: framework/settings/theme-options.php:607
+#: framework/settings/theme-options.php:661
+#: framework/settings/theme-options.php:677
+#: framework/settings/theme-options.php:693
+#: framework/settings/theme-options.php:709
+#: framework/settings/theme-options.php:725
+#: framework/settings/theme-options.php:741
+#: framework/settings/theme-options.php:795
+#: framework/settings/theme-options.php:811
+#: framework/settings/theme-options.php:827
+#: framework/settings/theme-options.php:843
+#: framework/settings/theme-options.php:859
+#: framework/settings/theme-options.php:875
+msgid "2 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:64
+#: framework/settings/theme-options.php:80
+#: framework/settings/theme-options.php:96
+#: framework/settings/theme-options.php:112
+#: framework/settings/theme-options.php:128
+#: framework/settings/theme-options.php:144
+#: framework/settings/theme-options.php:235
+#: framework/settings/theme-options.php:250
+#: framework/settings/theme-options.php:265
+#: framework/settings/theme-options.php:280
+#: framework/settings/theme-options.php:295
+#: framework/settings/theme-options.php:310
+#: framework/settings/theme-options.php:350
+#: framework/settings/theme-options.php:366
+#: framework/settings/theme-options.php:382
+#: framework/settings/theme-options.php:398
+#: framework/settings/theme-options.php:414
+#: framework/settings/theme-options.php:430
+#: framework/settings/theme-options.php:528
+#: framework/settings/theme-options.php:544
+#: framework/settings/theme-options.php:560
+#: framework/settings/theme-options.php:576
+#: framework/settings/theme-options.php:592
+#: framework/settings/theme-options.php:608
+#: framework/settings/theme-options.php:662
+#: framework/settings/theme-options.php:678
+#: framework/settings/theme-options.php:694
+#: framework/settings/theme-options.php:710
+#: framework/settings/theme-options.php:726
+#: framework/settings/theme-options.php:742
+#: framework/settings/theme-options.php:796
+#: framework/settings/theme-options.php:812
+#: framework/settings/theme-options.php:828
+#: framework/settings/theme-options.php:844
+#: framework/settings/theme-options.php:860
+#: framework/settings/theme-options.php:876
+msgid "3 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:65
+#: framework/settings/theme-options.php:81
+#: framework/settings/theme-options.php:97
+#: framework/settings/theme-options.php:113
+#: framework/settings/theme-options.php:129
+#: framework/settings/theme-options.php:145
+#: framework/settings/theme-options.php:236
+#: framework/settings/theme-options.php:251
+#: framework/settings/theme-options.php:266
+#: framework/settings/theme-options.php:281
+#: framework/settings/theme-options.php:296
+#: framework/settings/theme-options.php:311
+#: framework/settings/theme-options.php:351
+#: framework/settings/theme-options.php:367
+#: framework/settings/theme-options.php:383
+#: framework/settings/theme-options.php:399
+#: framework/settings/theme-options.php:415
+#: framework/settings/theme-options.php:431
+#: framework/settings/theme-options.php:529
+#: framework/settings/theme-options.php:545
+#: framework/settings/theme-options.php:561
+#: framework/settings/theme-options.php:577
+#: framework/settings/theme-options.php:593
+#: framework/settings/theme-options.php:609
+#: framework/settings/theme-options.php:663
+#: framework/settings/theme-options.php:679
+#: framework/settings/theme-options.php:695
+#: framework/settings/theme-options.php:711
+#: framework/settings/theme-options.php:727
+#: framework/settings/theme-options.php:743
+#: framework/settings/theme-options.php:797
+#: framework/settings/theme-options.php:813
+#: framework/settings/theme-options.php:829
+#: framework/settings/theme-options.php:845
+#: framework/settings/theme-options.php:861
+#: framework/settings/theme-options.php:877
+msgid "4 items"
+msgstr ""
+
+#: 404.php:6
+msgid "404"
+msgstr ""
+
+#: framework/settings/theme-options.php:66
+#: framework/settings/theme-options.php:82
+#: framework/settings/theme-options.php:98
+#: framework/settings/theme-options.php:114
+#: framework/settings/theme-options.php:130
+#: framework/settings/theme-options.php:146
+#: framework/settings/theme-options.php:237
+#: framework/settings/theme-options.php:252
+#: framework/settings/theme-options.php:267
+#: framework/settings/theme-options.php:282
+#: framework/settings/theme-options.php:297
+#: framework/settings/theme-options.php:312
+#: framework/settings/theme-options.php:352
+#: framework/settings/theme-options.php:368
+#: framework/settings/theme-options.php:384
+#: framework/settings/theme-options.php:400
+#: framework/settings/theme-options.php:416
+#: framework/settings/theme-options.php:432
+#: framework/settings/theme-options.php:530
+#: framework/settings/theme-options.php:546
+#: framework/settings/theme-options.php:562
+#: framework/settings/theme-options.php:578
+#: framework/settings/theme-options.php:594
+#: framework/settings/theme-options.php:610
+#: framework/settings/theme-options.php:664
+#: framework/settings/theme-options.php:680
+#: framework/settings/theme-options.php:696
+#: framework/settings/theme-options.php:712
+#: framework/settings/theme-options.php:728
+#: framework/settings/theme-options.php:744
+#: framework/settings/theme-options.php:798
+#: framework/settings/theme-options.php:814
+#: framework/settings/theme-options.php:830
+#: framework/settings/theme-options.php:846
+#: framework/settings/theme-options.php:862
+#: framework/settings/theme-options.php:878
+msgid "5 items"
+msgstr ""
+
+#: framework/settings/theme-options.php:67
+#: framework/settings/theme-options.php:83
+#: framework/settings/theme-options.php:99
+#: framework/settings/theme-options.php:115
+#: framework/settings/theme-options.php:131
+#: framework/settings/theme-options.php:147
+#: framework/settings/theme-options.php:238
+#: framework/settings/theme-options.php:253
+#: framework/settings/theme-options.php:268
+#: framework/settings/theme-options.php:283
+#: framework/settings/theme-options.php:298
+#: framework/settings/theme-options.php:313
+#: framework/settings/theme-options.php:353
+#: framework/settings/theme-options.php:369
+#: framework/settings/theme-options.php:385
+#: framework/settings/theme-options.php:401
+#: framework/settings/theme-options.php:417
+#: framework/settings/theme-options.php:433
+#: framework/settings/theme-options.php:531
+#: framework/settings/theme-options.php:547
+#: framework/settings/theme-options.php:563
+#: framework/settings/theme-options.php:579
+#: framework/settings/theme-options.php:595
+#: framework/settings/theme-options.php:611
+#: framework/settings/theme-options.php:665
+#: framework/settings/theme-options.php:681
+#: framework/settings/theme-options.php:697
+#: framework/settings/theme-options.php:713
+#: framework/settings/theme-options.php:729
+#: framework/settings/theme-options.php:745
+#: framework/settings/theme-options.php:799
+#: framework/settings/theme-options.php:815
+#: framework/settings/theme-options.php:831
+#: framework/settings/theme-options.php:847
+#: framework/settings/theme-options.php:863
+#: framework/settings/theme-options.php:879
+msgid "6 items"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:33
+msgid "Access token"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:37
+msgid "Access token secret"
+msgstr ""
+
+#: framework/theme-functions.php:862
+msgid "Account"
+msgstr ""
+
+#: framework/settings/theme-options.php:461
+msgid "Active"
+msgstr ""
+
+#: framework/settings/theme-options.php:468
+msgid "Add item"
+msgstr ""
+
+#: framework/settings/theme-options.php:469
+msgid "Add New item"
+msgstr ""
+
+#: functions.php:121 functions.php:131
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: framework/theme-functions.php:435 framework/theme-functions.php:519
+#: framework/theme-functions.php:743
+msgid "All Categories"
+msgstr ""
+
+#: framework/woo-functions.php:276 framework/woo-functions.php:279
+#: framework/woo-functions.php:282
+msgid "All products of store"
+msgstr ""
+
+#: functions.php:442 functions.php:454
+msgid "All rights reserved"
+msgstr ""
+
+#: framework/settings/theme-options.php:510
+#: framework/settings/theme-options.php:644
+#: framework/settings/theme-options.php:778
+msgid "All the best item for You"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:68
+msgid "ASC"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:52
+msgid "Author"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:34
+msgid "Best Selling Products"
+msgstr ""
+
+#: functions.php:442 functions.php:454
+msgid "BioLife"
+msgstr ""
+
+#. Name of the theme
+msgid "Biolife"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Biolife is a simple but modern responsive WordPress theme that oozes high-"
+"street sophistication. Simply load your photography and you can have an "
+"online shop to matches the likes of organic stores, drinks stores, fashion "
+"stores."
+msgstr ""
+
+#: functions.php:302
+msgid "Browse Wishlist"
+msgstr ""
+
+#: templates/blog/blog-related.php:60
+msgid "By "
+msgstr ""
+
+#: framework/theme-functions.php:191
+msgid "By:"
+msgstr ""
+
+#: framework/woo-functions.php:222
+msgid "Cart"
+msgstr ""
+
+#: framework/theme-functions.php:742
+msgid "CATEGORIES"
+msgstr ""
+
+#: framework/theme-functions.php:203
+msgid "Categories:"
+msgstr ""
+
+#: framework/widgets/widget-recent-blog.php:174
+msgid "Category"
+msgstr ""
+
+#: framework/theme-functions.php:1229
+msgid "Category:"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:45
+msgid "Choose Target"
+msgstr ""
+
+#: framework/widgets/widget-recent-blog.php:135
+msgid "Choose Type Post"
+msgstr ""
+
+#: woocommerce/template-functions.php:114
+msgid "Clear"
+msgstr ""
+
+#: framework/theme-functions.php:744
+msgid "Close"
+msgstr ""
+
+#: comments.php:20
+msgid "Comment *"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:56
+msgid "Comment count"
+msgstr ""
+
+#: framework/widgets/widget-recent-blog.php:71
+msgid "Comments"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:41
+msgid "Consumer key"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:45
+msgid "Consumer secret"
+msgstr ""
+
+#. Name of the template
+msgid "Container 1200px"
+msgstr ""
+
+#: framework/theme-functions.php:1098
+msgid "Continue Reading"
+msgstr ""
+
+#. %s: Name of current post
+#: framework/theme-functions.php:1111
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#. %s: Name of current post
+#: templates/blog/blog-default.php:76
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: functions.php:442 functions.php:453
+msgid "Copyright © 2018"
+msgstr ""
+
+#: framework/settings/theme-options.php:705
+msgid "Cross Sell product items per row on portrait tablet"
+msgstr ""
+
+#: framework/woo-functions.php:275 woocommerce/template-functions.php:486
+#: framework/settings/theme-options.php:652
+msgid "Cross Sell Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:634
+#: framework/settings/theme-options.php:635
+msgid "Cross Sell products image"
+msgstr ""
+
+#: framework/settings/theme-options.php:657
+#: framework/settings/theme-options.php:673
+msgid "Cross Sell products items per row on Desktop"
+msgstr ""
+
+#: framework/settings/theme-options.php:689
+msgid "Cross Sell products items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:721
+#: framework/settings/theme-options.php:737
+msgid "Cross Sell products items per row on Mobile"
+msgstr ""
+
+#: framework/settings/theme-options.php:641
+#: framework/settings/theme-options.php:642
+msgid "Cross Sell products subtitle"
+msgstr ""
+
+#: framework/settings/theme-options.php:649
+#: framework/settings/theme-options.php:650
+msgid "Cross Sell products title"
+msgstr ""
+
+#: framework/settings/theme-options.php:1029
+msgid "Custom Theme Options"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:50
+msgid "Date"
+msgstr ""
+
+#: functions.php:191 vc_templates/ovic_iconbox.php:258
+#: vc_templates/ovic_iconbox.php:293
+msgid "Days"
+msgstr ""
+
+#: framework/settings/theme-options.php:462
+msgid "Deactive"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:69
+msgid "DESC"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:49
+msgid "Descriptions"
+msgstr ""
+
+#: framework/settings/theme-options.php:327
+#: framework/settings/theme-options.php:490
+#: framework/settings/theme-options.php:624
+#: framework/settings/theme-options.php:758
+msgid "Disable"
+msgstr ""
+
+#: framework/settings/theme-options.php:909
+msgid "Disabled banner on pages"
+msgstr ""
+
+#: framework/woo-functions.php:405
+msgid "Display"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:54
+msgid "Display the customer Iconbox."
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:83
+msgid "Display the customer Products Slide."
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:58
+msgid "Display twitter feeds."
+msgstr ""
+
+#: framework/theme-functions.php:369
+msgid "Edit"
+msgstr ""
+
+#: comments.php:24
+msgid "Email *"
+msgstr ""
+
+#: framework/settings/theme-options.php:326
+#: framework/settings/theme-options.php:332
+#: framework/settings/theme-options.php:489
+#: framework/settings/theme-options.php:623
+#: framework/settings/theme-options.php:757
+msgid "Enable"
+msgstr ""
+
+#: framework/settings/theme-options.php:1009
+msgid "Enable Back To Top Button"
+msgstr ""
+
+#: framework/settings/theme-options.php:159
+msgid "Enable Catalog Mode"
+msgstr ""
+
+#: framework/settings/theme-options.php:629
+msgid "Enable Cross Sell Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:1038
+#: framework/settings/theme-options.php:1044
+msgid "Enable for using Themes setting on this page."
+msgstr ""
+
+#: framework/settings/theme-options.php:47
+msgid "Enable Related Blog"
+msgstr ""
+
+#: framework/settings/theme-options.php:495
+msgid "Enable Related Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:763
+msgid "Enable Up Sell Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:942
+msgid "Enter info text 1"
+msgstr ""
+
+#: framework/settings/theme-options.php:948
+msgid "Enter info text 2"
+msgstr ""
+
+#: framework/settings/theme-options.php:479
+msgid "Enter link for payment"
+msgstr ""
+
+#: framework/theme-functions.php:126 framework/theme-functions.php:1180
+msgid "Facebook"
+msgstr ""
+
+#: framework/settings/theme-options.php:319
+msgid "Feature products Settings"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:37
+msgid "Featured Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:1072
+msgid "Footer Layout"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page"
+msgstr ""
+
+#. Name of the template
+msgid "Full Width Page - No Title"
+msgstr ""
+
+#: framework/woo-functions.php:206
+msgid "Go"
+msgstr ""
+
+#: 404.php:9
+msgid "Go to Home"
+msgstr ""
+
+#: framework/theme-functions.php:132 framework/theme-functions.php:1186
+msgid "Google+"
+msgstr ""
+
+#: woocommerce/template-functions.php:375
+msgid "Grid"
+msgstr ""
+
+#: framework/settings/theme-options.php:224
+msgid "Grid Settings"
+msgstr ""
+
+#: functions.php:296
+msgid "has been added to cart!"
+msgstr ""
+
+#: framework/settings/theme-options.php:889
+msgid "Header"
+msgstr ""
+
+#: framework/settings/theme-options.php:899
+msgid "Header background"
+msgstr ""
+
+#: framework/settings/theme-options.php:904
+msgid "Header banner"
+msgstr ""
+
+#: framework/settings/theme-options.php:920
+#: framework/settings/theme-options.php:1063
+msgid "Header Layout"
+msgstr ""
+
+#: framework/settings/theme-options.php:894
+msgid "Header Settings"
+msgstr ""
+
+#: framework/theme-functions.php:854
+msgid "Home"
+msgstr ""
+
+#: functions.php:192 vc_templates/ovic_iconbox.php:258
+#: vc_templates/ovic_iconbox.php:293
+msgid "Hrs"
+msgstr ""
+
+#. URI of the theme
+msgid "https://biolife.kutethemes.net/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://kutethemes.com/"
+msgstr ""
+
+#: framework/woo-functions.php:753
+msgid "Hurry Up! Offer End In :"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:40
+msgid "Icon"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:51
+msgid "ID"
+msgstr ""
+
+#: framework/theme-functions.php:550
+msgid "Im searchings for"
+msgstr ""
+
+#: content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: framework/woo-functions.php:203 vc_templates/ovic_iconbox.php:238
+#: vc_templates/ovic_iconbox.php:241
+msgid "item"
+msgstr ""
+
+#: vc_templates/ovic_iconbox.php:236
+msgid "items"
+msgstr ""
+
+#: framework/settings/theme-options.php:230
+#: framework/settings/theme-options.php:245
+#: framework/settings/theme-options.php:260
+#: framework/settings/theme-options.php:275
+#: framework/settings/theme-options.php:290
+#: framework/settings/theme-options.php:305
+msgid "Items per row on Desktop( For grid mode )"
+msgstr ""
+
+#. Author of the theme
+msgid "Kutethemes"
+msgstr ""
+
+#: index.php:51
+msgid "Latest Posts"
+msgstr ""
+
+#: comments.php:31
+msgid "Leave a comment"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:53
+msgid "Limit"
+msgstr ""
+
+#: woocommerce/template-functions.php:383
+msgid "List"
+msgstr ""
+
+#: framework/woo-functions.php:646
+msgid "Login"
+msgstr ""
+
+#: framework/settings/theme-options.php:1049
+msgid "Logo"
+msgstr ""
+
+#: framework/settings/theme-options.php:978
+msgid "Logo Mobile"
+msgstr ""
+
+#: framework/woo-functions.php:639
+msgid "Logout"
+msgstr ""
+
+#: framework/theme-functions.php:873
+msgid "Menu"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:57
+msgid "Menu order"
+msgstr ""
+
+#: framework/settings/theme-options.php:1037
+#: framework/settings/theme-options.php:1043
+msgid "Meta Box Options"
+msgstr ""
+
+#: functions.php:193 vc_templates/ovic_iconbox.php:258
+#: vc_templates/ovic_iconbox.php:293
+msgid "Mins"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:54
+msgid "Modified"
+msgstr ""
+
+#: framework/woo-functions.php:201
+msgid "My Bag"
+msgstr ""
+
+#: comments.php:23
+msgid "Name *"
+msgstr ""
+
+#: framework/woo-functions.php:704 woocommerce/template-functions.php:646
+msgid "New"
+msgstr ""
+
+#: comments.php:53 woocommerce/template-functions.php:474
+msgid "Next"
+msgstr ""
+
+#: vc_templates/ovic_custommenu.php:59 vc_templates/ovic_custommenu.php:70
+#: vc_templates/ovic_custommenu.php:84
+msgid "No content."
+msgstr ""
+
+#: vc_templates/ovic_products.php:203 vc_templates/ovic_products.php:255
+#: vc_templates/ovic_products.php:282 vc_templates/ovic_products.php:321
+#: vc_templates/ovic_products.php:363 vc_templates/ovic_products.php:390
+#: framework/widgets/widget-product-slide.php:131
+msgid "No Product"
+msgstr ""
+
+#: templates/blog/blog-default.php:22
+msgid "No title"
+msgstr ""
+
+#: vc_templates/ovic_instagram.php:86
+msgid "No user ID specified."
+msgstr ""
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: functions.php:303
+msgid "Notice!"
+msgstr ""
+
+#: framework/settings/theme-options.php:205
+msgid "Number of products on shop page."
+msgstr ""
+
+#: framework/widgets/widget-recent-blog.php:202
+msgid "Number Post"
+msgstr ""
+
+#: framework/settings/theme-options.php:52
+msgid "Number Related Post"
+msgstr ""
+
+#: framework/woo-functions.php:700
+msgid "Off"
+msgstr ""
+
+#: framework/theme-functions.php:366
+msgid "on "
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:39
+msgid "On New"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:38
+msgid "On Sale"
+msgstr ""
+
+#: 404.php:7
+msgid "Oops! That page can't be found."
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:74
+msgid "Order"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:63
+msgid "Order By"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:56
+msgid "Ovic: Iconbox"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:85
+msgid "Ovic: Products Slide"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:60
+msgid "Ovic: Twitter Feeds"
+msgstr ""
+
+#: page.php:49 templates/blog/blog-default.php:85
+msgid "Page"
+msgstr ""
+
+#: framework/settings/theme-options.php:1056
+msgid "Page Banner"
+msgstr ""
+
+#: page.php:45 framework/theme-functions.php:1116
+#: templates/blog/blog-default.php:81
+msgid "Pages:"
+msgstr ""
+
+#: framework/settings/theme-options.php:467
+msgid "Payment"
+msgstr ""
+
+#: framework/theme-functions.php:138 framework/theme-functions.php:1192
+msgid "Pinterest"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "SEARCH..."
+msgstr ""
+
+#: framework/settings/theme-options.php:990
+msgid "Placeholder image"
+msgstr ""
+
+#: comments.php:30
+msgid "POST COMMENT"
+msgstr ""
+
+#: templates/blog/blog-style/content-blog-style-3.php:16
+msgid "Posted By: "
+msgstr ""
+
+#: templates/blog/blog-related.php:37
+msgid "Posts you may like"
+msgstr ""
+
+#: comments.php:52
+msgid "Prev"
+msgstr ""
+
+#: woocommerce/template-functions.php:474
+msgid "Previous"
+msgstr ""
+
+#: functions.php:103
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/settings/theme-options.php:210
+msgid "Product Attribute"
+msgstr ""
+
+#: functions.php:298
+msgid "Product has been added to cart!"
+msgstr ""
+
+#: functions.php:300
+msgid "Product has been added to wishlist!"
+msgstr ""
+
+#: framework/settings/theme-options.php:338
+msgid "Product Layout"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:78
+msgid "Product per page"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:44
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr ""
+
+#: functions.php:305
+msgid "Product Removed"
+msgstr ""
+
+#: framework/settings/theme-options.php:217
+msgid "Product Shop Layout"
+msgstr ""
+
+#: framework/settings/theme-options.php:165
+msgid "Products Newness"
+msgstr ""
+
+#: framework/settings/theme-options.php:204
+msgid "Products perpage"
+msgstr ""
+
+#: woocommerce/global/quantity-input.php:33
+msgid "Quantiy:"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:55
+msgid "Random"
+msgstr ""
+
+#: templates/blog/blog-grid.php:29 templates/blog/blog-standard.php:23
+#: templates/blog/blog-style/content-blog-style-7.php:52
+#: templates/blog/blog-style/content-blog-style-3.php:39
+msgid "Read more"
+msgstr ""
+
+#: content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:36
+msgid "Recent Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:42
+msgid "Related"
+msgstr ""
+
+#: framework/settings/theme-options.php:59
+#: framework/settings/theme-options.php:75
+msgid "Related items per row on Desktop"
+msgstr ""
+
+#: framework/settings/theme-options.php:91
+msgid "Related items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:123
+#: framework/settings/theme-options.php:139
+msgid "Related items per row on Mobile"
+msgstr ""
+
+#: framework/settings/theme-options.php:107
+msgid "Related items per row on portrait tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:393
+#: framework/settings/theme-options.php:571
+msgid "Related product items per row on portrait tablet"
+msgstr ""
+
+#: framework/woo-functions.php:278 woocommerce/template-functions.php:488
+#: framework/settings/theme-options.php:518
+msgid "Related Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:500
+#: framework/settings/theme-options.php:501
+msgid "Related products image"
+msgstr ""
+
+#: framework/settings/theme-options.php:345
+#: framework/settings/theme-options.php:361
+#: framework/settings/theme-options.php:523
+#: framework/settings/theme-options.php:539
+msgid "Related products items per row on Desktop"
+msgstr ""
+
+#: framework/settings/theme-options.php:377
+#: framework/settings/theme-options.php:555
+msgid "Related products items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:409
+#: framework/settings/theme-options.php:425
+#: framework/settings/theme-options.php:587
+#: framework/settings/theme-options.php:603
+msgid "Related products items per row on Mobile"
+msgstr ""
+
+#: framework/settings/theme-options.php:507
+#: framework/settings/theme-options.php:508
+msgid "Related products subtitle"
+msgstr ""
+
+#: framework/settings/theme-options.php:515
+#: framework/settings/theme-options.php:516
+msgid "Related products title"
+msgstr ""
+
+#: framework/woo-functions.php:109
+msgid "Review"
+msgstr ""
+
+#: woocommerce/template-functions.php:313
+msgid "review"
+msgstr ""
+
+#: framework/woo-functions.php:107
+msgid "Reviews"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:58
+msgid "Sale price"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:49
+msgid "Screen name"
+msgstr ""
+
+#: framework/widgets/widget-recent-blog.php:155
+msgid "Search by name Post"
+msgstr ""
+
+#: framework/theme-functions.php:464 framework/theme-functions.php:481
+#: framework/theme-functions.php:489
+msgid "Search here..."
+msgstr ""
+
+#: functions.php:108
+msgid "Search Menu"
+msgstr ""
+
+#: index.php:58 index.php:66 index.php:73
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:194 vc_templates/ovic_iconbox.php:258
+#: vc_templates/ovic_iconbox.php:293
+msgid "Secs"
+msgstr ""
+
+#: framework/settings/theme-options.php:1073
+msgid "Select a footer layout"
+msgstr ""
+
+#: framework/settings/theme-options.php:921
+#: framework/settings/theme-options.php:1064
+msgid "Select a header layout"
+msgstr ""
+
+#: framework/settings/theme-options.php:218
+msgid "Select a Product layout in shop page"
+msgstr ""
+
+#: framework/settings/theme-options.php:194
+msgid "Select default layout for shop, product category archive."
+msgstr ""
+
+#: framework/settings/theme-options.php:954
+msgid "Select icon text"
+msgstr ""
+
+#: framework/settings/theme-options.php:474
+msgid "Select image"
+msgstr ""
+
+#: framework/settings/theme-options.php:936
+msgid "Select info icon"
+msgstr ""
+
+#: framework/settings/theme-options.php:172
+msgid "Select sidebar position on Shop Page."
+msgstr ""
+
+#: framework/settings/theme-options.php:1057
+msgid "Setting Banner For this page"
+msgstr ""
+
+#: framework/settings/theme-options.php:1050
+msgid "Setting Logo For this page"
+msgstr ""
+
+#: framework/settings/theme-options.php:980
+msgid "Setting Logo Mobile For Site"
+msgstr ""
+
+#: framework/theme-functions.php:117
+msgid "Share:"
+msgstr ""
+
+#: framework/settings/theme-options.php:193
+msgid "Shop Default Layout"
+msgstr ""
+
+#: vc_templates/ovic_product.php:117 vc_templates/ovic_banner.php:267
+#: vc_templates/ovic_banner.php:307
+msgid "Shop Now"
+msgstr ""
+
+#: framework/settings/theme-options.php:171
+msgid "Shop Page Sidebar Layout"
+msgstr ""
+
+#: functions.php:129
+msgid "Shop Widget Area"
+msgstr ""
+
+#: framework/woo-functions.php:409 woocommerce/template-functions.php:432
+#, php-format
+msgid "Show %s"
+msgstr ""
+
+#: framework/woo-functions.php:413 woocommerce/template-functions.php:436
+msgid "Show 05"
+msgstr ""
+
+#: framework/woo-functions.php:418 woocommerce/template-functions.php:441
+msgid "Show 10"
+msgstr ""
+
+#: framework/woo-functions.php:423 woocommerce/template-functions.php:446
+msgid "Show 12"
+msgstr ""
+
+#: framework/woo-functions.php:428 woocommerce/template-functions.php:451
+msgid "Show 15"
+msgstr ""
+
+#: framework/woo-functions.php:432 woocommerce/template-functions.php:455
+msgid "Show All"
+msgstr ""
+
+#: framework/settings/theme-options.php:182
+msgid "Sidebar Used For Shop"
+msgstr ""
+
+#: framework/settings/theme-options.php:458
+msgid "Single Add To Cart"
+msgstr ""
+
+#: framework/settings/theme-options.php:457
+msgid "Single Excerpt"
+msgstr ""
+
+#: framework/settings/theme-options.php:450
+msgid "Single Group Add To Cart"
+msgstr ""
+
+#: framework/settings/theme-options.php:454
+msgid "Single Group Flash"
+msgstr ""
+
+#: framework/settings/theme-options.php:456
+msgid "Single Price"
+msgstr ""
+
+#: framework/settings/theme-options.php:449
+msgid "Single Product Info"
+msgstr ""
+
+#: framework/settings/theme-options.php:455
+msgid "Single Rating"
+msgstr ""
+
+#: framework/settings/theme-options.php:453
+msgid "Single Title"
+msgstr ""
+
+#: framework/woo-functions.php:492
+msgid "Sku:"
+msgstr ""
+
+#: framework/settings/theme-options.php:1000
+msgid "Social Share Blog"
+msgstr ""
+
+#: content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: 404.php:8
+msgid ""
+"Sorry, but the page you are looking for is not found. Please, make sure you "
+"have typed the current URL."
+msgstr ""
+
+#: framework/woo-functions.php:448
+msgid "Sort"
+msgstr ""
+
+#: framework/widgets/widget-recent-blog.php:190
+msgid "Sort By"
+msgstr ""
+
+#: framework/settings/theme-options.php:443
+msgid "Sorter Summary Single Product"
+msgstr ""
+
+#: templates/blog/blog-related.php:55
+msgid "Sticky"
+msgstr ""
+
+#: framework/settings/theme-options.php:931
+msgid "Sticky Menu"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:32
+msgid "Style"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:34
+msgid "Style 01"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:35
+msgid "Style 02"
+msgstr ""
+
+#: framework/theme-functions.php:153 framework/theme-functions.php:1241
+msgid "Tags:"
+msgstr ""
+
+#: framework/settings/theme-options.php:960
+msgid "Text Before Search"
+msgstr ""
+
+#: framework/settings/theme-options.php:966
+msgid "Text Last Menu"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:29
+#: framework/widgets/widget-product-slide.php:53
+#: framework/widgets/widget-twitter.php:29
+#: framework/widgets/widget-recent-blog.php:119
+#: framework/widgets/widget-iconbox.php:28
+msgid "Title"
+msgstr ""
+
+#: framework/widgets/widget-iconbox.php:44
+msgid "Title Icon"
+msgstr ""
+
+#: functions.php:105
+msgid "Top Left Menu"
+msgstr ""
+
+#: functions.php:110
+msgid "Top Left Menu Header 12"
+msgstr ""
+
+#: functions.php:107
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:109
+msgid "Top Menu Header 11"
+msgstr ""
+
+#: framework/widgets/widget-product-slide.php:35
+msgid "Top Rated Products"
+msgstr ""
+
+#: functions.php:106
+msgid "Top Right Menu"
+msgstr ""
+
+#: functions.php:111
+msgid "Top Right Menu Header 12"
+msgstr ""
+
+#: framework/theme-functions.php:120 framework/theme-functions.php:1174
+msgid "Twitter"
+msgstr ""
+
+#: framework/woo-functions.php:731
+msgid "Unlimit"
+msgstr ""
+
+#: framework/settings/theme-options.php:839
+msgid "Up Sell product items per row on portrait tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:786
+msgid "Up Sell Products"
+msgstr ""
+
+#: framework/settings/theme-options.php:768
+#: framework/settings/theme-options.php:769
+msgid "Up Sell products image"
+msgstr ""
+
+#: framework/settings/theme-options.php:791
+#: framework/settings/theme-options.php:807
+msgid "Up Sell products items per row on Desktop"
+msgstr ""
+
+#: framework/settings/theme-options.php:823
+msgid "Up Sell products items per row on landscape tablet"
+msgstr ""
+
+#: framework/settings/theme-options.php:855
+#: framework/settings/theme-options.php:871
+msgid "Up Sell products items per row on Mobile"
+msgstr ""
+
+#: framework/settings/theme-options.php:775
+#: framework/settings/theme-options.php:776
+msgid "Up Sell products subtitle"
+msgstr ""
+
+#: framework/settings/theme-options.php:783
+#: framework/settings/theme-options.php:784
+msgid "Up Sell products title"
+msgstr ""
+
+#: framework/woo-functions.php:281 woocommerce/template-functions.php:490
+msgid "Upsell Products"
+msgstr ""
+
+#: templates/blog/blog-default.php:113
+msgctxt "Used before category names."
+msgid "Categories: "
+msgstr ""
+
+#: templates/blog/blog-default.php:46
+msgctxt "Used before post author name."
+msgid "By: "
+msgstr ""
+
+#: templates/blog/blog-default.php:104
+msgctxt "Used before post format."
+msgid "Format"
+msgstr ""
+
+#: framework/theme-functions.php:177 templates/blog/blog-default.php:40
+msgctxt "Used before publish date."
+msgid "Posted on: "
+msgstr ""
+
+#: templates/blog/blog-default.php:121
+msgctxt "Used before tag names."
+msgid "Tags: "
+msgstr ""
+
+#: templates/blog/blog-default.php:110 templates/blog/blog-default.php:118
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+#: vc_templates/ovic_instagram.php:104
+msgid "User ID and access token do not match. Please check again."
+msgstr ""
+
+#: functions.php:104
+msgid "Vertical Menu"
+msgstr ""
+
+#: framework/widgets/widget-twitter.php:131
+msgid "View all"
+msgstr ""
+
+#: vc_templates/ovic_blog.php:95
+msgid "View All Articles"
+msgstr ""
+
+#: functions.php:297
+msgid "View Cart"
+msgstr ""
+
+#: vc_templates/ovic_instagram.php:132
+msgid "Warning!"
+msgstr ""
+
+#: templates/header/header-style-11.php:15
+msgid "Welcome To Organic Store!"
+msgstr ""
+
+#: templates/header/header-style-10.php:10
+msgid "Welcome To Worldwide Organic Store"
+msgstr ""
+
+#: functions.php:119
+msgid "Widget Area"
+msgstr ""
+
+#: framework/woo-functions.php:602
+msgid "Wishlist"
+msgstr ""
+
+#: framework/theme-functions.php:361
+msgid "Your comment is awaiting moderation."
+msgstr ""
