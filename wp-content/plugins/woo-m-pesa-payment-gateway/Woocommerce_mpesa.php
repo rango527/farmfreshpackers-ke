@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 // In order to prevent direct access to the plugin
  defined('ABSPATH') or die("No access please!");
 // Plugin header- notifies wordpress of the existence of the plugin
@@ -115,11 +115,7 @@ class WC_Gateway_Mpesa extends WC_Payment_Gateway {
 
 */
 
-public function __construct(){		
-
-		
-
-		session_start();
+public function __construct(){
 
         // Basic settings
 

@@ -1,5 +1,4 @@
 <?php
-define('WP_MEMORY_LIMIT', '512M');
 /**
  * The base configuration for WordPress
  *
@@ -19,12 +18,14 @@ define('WP_MEMORY_LIMIT', '512M');
  * @package WordPress
  */
 
+define('WP_MEMORY_LIMIT', '512M');
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'farmfreshpackersDB' );
+define( 'DB_NAME', 'farmfresh_biolife' );
 
 /** MySQL database username */
-define( 'DB_USER', 'farmfreshpackersDBUser' );
+define( 'DB_USER', 'farmfreshpackersuser' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', 'Rango(4)' );
@@ -47,15 +48,16 @@ define('FS_METHOD', 'direct');
  *
  * @since 2.6.0
  */
+define('AUTH_KEY',         '?ft9l#4#v3YOA]g7&i.#SFFP_AFPB-N3[/+5Mlu<fpdk }VL)Rx1Ax%2QR)^7ZZd');
+define('SECURE_AUTH_KEY',  ',R2MY+OB7*Y-?VV.yulB9<)HYB)l,8J*${uqlWLiBK~GsV;}=Fz_87Ac/8S:bJCM');
+define('LOGGED_IN_KEY',    '@LIC=Nl$q!500*dhCR~R#*Oo{<6i]+dKN!YRbAz6T5czv5}[FIXhCoZXx.|vvb6:');
+define('NONCE_KEY',        '.9oc+LP}sr+p-!k!$*`K8jfB_PZfJNWHU :x_|A6><TYg./71.!^RM6uC^$[w3RG');
+define('AUTH_SALT',        ')50*@>^>XCd^]B]F5$}W(1~N8(i5C=@;W.d!@P.PHuo3rsJbuimIp&nnvd?mFP6D');
+define('SECURE_AUTH_SALT', 's(f^$<T+@NHEkUKj >;i22F6qwE*G_xmN>M*.(vSd@tRw3d|JEfSl+It3*m{o7(%');
+define('LOGGED_IN_SALT',   '(dg|hLKCnr~8Yr2}F<K<lyX=|>@TW!z>+hn`x#lH8d`N&JU+Lh 6q@Gdg4DgMU&:');
+define('NONCE_SALT',       'ko?qM(GPUQrK.4kl8+PD%qe86N_pgNCfGxmF-jTQ^9{%^!,NL}8F1?bEIY)Ndk*N');
 
-define('AUTH_KEY',         'A[n)ffFvY?GsV+)qzzbP%^OQ5!Si8ig:*]0#&ic|~xqqsv/|H~JU+3|H+d1N^sfT');
-define('SECURE_AUTH_KEY',  '0Z-L+qjJ*XR8U)]|M/6NtPuS_4n|`d$:1tX0qDjmZ_-O6+$WkWMk=}Yn@ci%Kagk');
-define('LOGGED_IN_KEY',    'Ic%a$Zbs~e/)M(!T`{Bn)t1j>j;Ec::r|zXKj|+qwexEm=RUM~TbcF/%v!!.{U a');
-define('NONCE_KEY',        '<5vhW&-V+4yldGVx+eC ,Ov*Yjz7mWLlgP l~.~J|U-=!N!,o=W|VJ@o9XzAf.<d');
-define('AUTH_SALT',        '4Z~;1pE{0EVz_#++L7^R`35$M$^1?@4t&{S.Szm9</]X 8]+EaW1|T1W6)=7mPaD');
-define('SECURE_AUTH_SALT', '?/jt@%*m-f^cKCB{X,,eNp0(dVghdRw)dx*6zv(Z[%3-|E9lRz5g3UkPsdmg.3}?');
-define('LOGGED_IN_SALT',   '=:]MzVY|.GTuMvY0l8[=G*gt-:dD^p?9/v3:UM&!_-nhO|s@p6q:88-Cf-(r01q1');
-define('NONCE_SALT',       'K9v&$ttr,v-rwia$;+3K}-z*,>ym<KU-UXK]!?;~M@uIb=|g|Pp{gA (#<w]W.(x');
+
 
 /**#@-*/
 
