@@ -1,0 +1,74 @@
+-----------------------
+Version ...
+-----------------------
+Fixed: cart link
+-----------------------
+Version 1.1.1
+-----------------------
+Fixed: css style
+-----------------------
+Version 1.1.0
+-----------------------
+Update: Home pages (Import more products for Home 13, Home 14)
+update: css for dokan plugin
+Fixed: no display footer
+-----------------------
+Version 1.0.11
+-----------------------
+Update: Add more mega menus for blog
+Update: Import more products for Home 12
+Fixed: Hover button in Cart page
+Files:
+../themes/biolife/assets/css/style.css
+-----------------------
+Version 1.0.10
+-----------------------
+Update: Home pages (home 12)
+-----------------------
+Version 1.0.9
+-----------------------
+Update: Home pages (home 09, home 10, home 11)
+-----------------------
+Version 1.0.8
+-----------------------
+Update: Data import demo
+Folder: ../themes/biolife/importer
+Update: Style tabs for mobile device
+File:  ../themes/biolife/assets/css/style.css
+-----------------------
+Version 1.0.7
+-----------------------
+Fixed: Compatible with WooCommerce version 3.6.3
+Updated: Add more function for selecting the own header, footer for page
+-----------------------
+Version 1.0.6
+-----------------------
+Update: instagram shortcode and multi-language for countdown
+Files:
+../themes/biolife/function.php
+../themes/biolife/assets/css/style.css
+../themes/biolife/assets/js/function.js
+../themes/biolife/vc_templates/ovic_instagram.php
+-----------------------
+Version 1.0.4
+-----------------------
+Fixed: Missed css when activating child theme. Move code css from “../themes/biolife/vc_templates/style.css” file to “../themes/biolife/vc_templates/assets/css/style.css” file
+File: ../themes/biolife/style.css; ../themes/biolife/assets/css/style.css
+-----------------------
+Version 1.0.3
+-----------------------
+Update: Update new Home Page
+-----------------------
+Version 1.0.2
+-----------------------
+Fixed: Error in shortcode ovic_products when running on PHP version 7.x.
+File: ../themes/biolife/vc_templates/ovic_products.php
+-----------------------
+Version 1.0.1
+-----------------------
+Fixed: Error in shortcode ovic_iconbox when no product category exists.
+File: ../themes/biolife/vc_templates/ovic_iconbox.php
+-----------------------
+Version 1.0.0
+-----------------------
+Initial release
