@@ -4,13 +4,13 @@
  * Plugin Name: Email Verification / SMS verification / Mobile Verification
  * Plugin URI: http://miniorange.com
  * Description: Email & SMS OTP Verification for all forms. Passwordless Login. SMS Notification. Support External Gateway Provider for OTP Verification ,24/7 Support
- * Version: 3.6
+ * Version: 3.6.1
  * Author: miniOrange
  * Author URI: http://miniorange.com
  * Text Domain: miniorange-otp-verification
  * Domain Path: /lang
  * WC requires at least: 2.0.0
- * WC tested up to: 4.2.2
+ * WC tested up to: 4.3.3
  * License: GPL2
  */
 

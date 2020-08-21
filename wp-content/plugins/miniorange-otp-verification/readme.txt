@@ -5,9 +5,9 @@ Tags: OTP, SMS notifications, mobile verification, Twilio, two-step verification
  passwordless login, one time passcode, email verification, security, website security, login security, multi-factor authentication,, woocommerce, smartphone,WordPress otp, register with OTP, user OTP verification, SMS OTP, OTP Email,
  registration with OTP verification, registration verification, admin notification, reset OTP, woocommerce order notification 
 Requires at least: 3.5
-Tested up to: 5.4
+Tested up to: 5.5
 Requires PHP: 5.3+
-Stable tag: 3.6
+Stable tag: 3.6.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -133,6 +133,14 @@ Please email us at **otpsupport@xecurify.com/info@xecurify.com** . You can also 
 6. WooCommerce SMS Customized SMS delivery
 
 == Changelog ==
+
+= 3.6.1 =
+* OTP Verification: Form Fixes and improvements
+ * Added feature for Viewing SMS and Email Transactions.
+ * Added improvements for WooCommerce Registration Form.
+ * Added improvements for Ultimate Member Registration Form.
+ * Added fixes for Caldera Forms and Ninja Forms.
+ * Removed password tag from Ultimate Member and WooCommerce Addons.
 
 = 3.6 =
 * OTP Verification: Custom Form Improvements, Form Fixes & New Addons
@@ -578,6 +586,14 @@ Please email us at **otpsupport@xecurify.com/info@xecurify.com** . You can also 
 * First version of plugin.
 
 == Upgrade Notice ==
+
+= 3.6.1 =
+* OTP Verification: Form Fixes and improvements
+ * Added feature for Viewing SMS and Email Transactions.
+ * Added improvements for WooCommerce Registration Form.
+ * Added improvements for Ultimate Member Registration Form.
+ * Added fixes for Caldera Forms and Ninja Forms.
+ * Removed password tag from Ultimate Member and WooCommerce Addons.
 
 = 3.6 =
 * OTP Verification: Custom Form Improvements, Form Fixes & New Addons

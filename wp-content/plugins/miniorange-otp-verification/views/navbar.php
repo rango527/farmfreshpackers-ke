@@ -12,14 +12,27 @@ echo'	<div class="wrap">
                     <a id="show_prem_addons_button" class="button button-primary button-large" style="background:orange;color:black">
                         <span class="dashicons dashicons-admin-tools" style="margin:5% 0 0 0;"></span>
                             '.mo_("Premium Addons").'
-                    </a>
+                    </a>';
+                    if($isLoggedIn && $isFreePlugin)
+echo'
+                     <a id="mo_check_transactions" class="button button-primary button-large">
+                            <span class="dashicons dashicons-visibility" style="margin:5% 0 0 0;"></span>
+                                '.mo_("View Transactions").'
+                    </a>';
+
+echo'
+
                     <a class="button button-primary button-large" id="restart_tour_button">
                         <span class="dashicons dashicons-controls-repeat" style="margin:5% 0 0 0;"></span>
                             '.mo_("Restart Tour").'
                     </a>
                 </div>
             </div>
-		</div>';
+		<form id="mo_check_transactions_form" style="display:none;" action="" method="post">';
+            
+            wp_nonce_field('mo_check_transactions_form','_nonce');
+echo        '<input type="hidden" name="option" value="mo_check_transactions" />
+        </form></div>';
 
 echo'	<div id="tab">
 			<h2 class="nav-tab-wrapper">';

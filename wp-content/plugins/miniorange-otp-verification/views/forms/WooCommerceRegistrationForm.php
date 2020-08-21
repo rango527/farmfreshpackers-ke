@@ -69,6 +69,7 @@ echo'		<div class="mo_registration_help_desc" '.$wc_hidden.' id="wc_default_opti
 					        '.$disabled.' 
 					        id="wc_both" 
 					        class="app_enable" 
+					        data-toggle="wc_both_options" 
 					        name="mo_customer_validation_wc_enable_type" 
 					        value="'.$wc_reg_type_both.'"
 						    '.($wc_enable_type == $wc_reg_type_both? "checked" : "" ).'/>
@@ -78,6 +79,14 @@ echo'		<div class="mo_registration_help_desc" '.$wc_hidden.' id="wc_default_opti
                         MoMessages::showMessage(MoMessages::ENABLE_BOTH_BODY)
                     );
 echo '			</p>
+
+				<div '.($wc_enable_type != $wc_reg_type_both ? "hidden" :"").' class="mo_registration_help_desc" 
+						id="wc_both_options" >
+                    <input  type="checkbox" '.$disabled.' 
+                            name="mo_customer_validation_wc_restrict_duplicates" value="1"
+                            '.$wc_restrict_duplicates.' />
+                    <strong>'. mo_( "Do not allow users to use the same phone number for multiple accounts." ).'</strong>
+				</div>
 				<b>'. mo_( "Select page to redirect to after registration" ).': </b>';
                 wp_dropdown_pages(array("selected" => $redirect_page_id));
 echo'		</div>

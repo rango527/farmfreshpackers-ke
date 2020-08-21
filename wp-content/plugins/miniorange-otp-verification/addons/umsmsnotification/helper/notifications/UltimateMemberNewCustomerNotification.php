@@ -26,7 +26,7 @@ class UltimateMemberNewCustomerNotification extends SMSNotification
 		$this->defaultSmsBody	=  UltimateMemberSMSNotificationMessages::showMessage(
 		                                UltimateMemberSMSNotificationMessages::NEW_UM_CUSTOMER_SMS
                                 );
-		$this->availableTags 	= '{site-name},{username},{accountpage-url},{password},{login-url},{email},{firtname},{lastname}';
+		$this->availableTags 	= '{site-name},{username},{accountpage-url},{login-url},{email},{firtname},{lastname}';
 		$this->pageHeader 		= mo_("NEW ACCOUNT NOTIFICATION SETTINGS");
 		$this->pageDescription 	= mo_("SMS notifications settings for New Account creation SMS sent to the users");
 		$this->notificationType = mo_("Customer");
@@ -48,7 +48,6 @@ class UltimateMemberNewCustomerNotification extends SMSNotification
 		$username 		= um_user( 'user_login' );
         $phoneNumber 	= $args[$this->recipient];
 		$profileUrl     = um_user_profile_url();
-		$password       = um_user( '_um_cool_but_hard_to_guess_plain_pw' );
 		$loginUrl       = um_get_core_page( 'login' );
 		$firstName      = um_user( 'first_name' );
 		$lastName       = um_user( 'last_name' );
@@ -58,7 +57,6 @@ class UltimateMemberNewCustomerNotification extends SMSNotification
             'site-name'         => get_bloginfo() ,
             'username'          => $username,
             'accountpage-url'   => $profileUrl,
-            'password'          => $password,
             'login-url'         => $loginUrl,
             'firstname'         => $firstName,
             'lastname'          => $lastName,

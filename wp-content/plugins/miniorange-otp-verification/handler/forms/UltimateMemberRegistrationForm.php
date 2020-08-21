@@ -246,6 +246,10 @@ class UltimateMemberRegistrationForm extends FormHandler implements IFormHandler
     {
 
         $otpVerType = $this->getVerificationType();
+        if (!SessionUtils::isOTPInitialized($this->_formSessionVar)) {
+            $form->add_error($this->_formKey, MoMessages::showMessage(MoMessages::ENTER_VERIFY_CODE));
+            return;
+        }
         $this->checkIntegrity($form,$args,$otpVerType);
         $this->validateChallenge($otpVerType,NULL,$value);
         if(!SessionUtils::isStatusMatch($this->_formSessionVar,self::VALIDATED,$otpVerType)) {
@@ -361,10 +365,8 @@ class UltimateMemberRegistrationForm extends FormHandler implements IFormHandler
 
         $this->_isFormEnabled = $this->sanitizeFormPOST('um_default_enable');
         $this->_otpType = $this->sanitizeFormPOST('um_enable_type');
-        $this->_restrictDuplicatesPhone = ($this->_otpType!=$this->_typePhoneTag) ? "" :
-            ($this->sanitizeFormPOST('um_restrict_duplicates_phone'));
-        $this->_restrictDuplicatesUserChoose = ($this->_otpType!=$this->_typeBothTag) ? "" :
-            ($this->sanitizeFormPOST('um_restrict_duplicates_userchoose'));
+        $this->_restrictDuplicates = $this->sanitizeFormPOST('um_restrict_duplicates');
+        
         $this->_isAjaxForm = $this->sanitizeFormPOST('um_is_ajax_form');
         $this->_buttonText = $this->sanitizeFormPOST('um_button_text');
         $this->_formKey = $this->sanitizeFormPOST('um_verify_meta_key');
@@ -374,22 +376,11 @@ class UltimateMemberRegistrationForm extends FormHandler implements IFormHandler
             update_mo_option('um_phone_key', $this->_phoneKey);
             update_mo_option('um_default_enable',$this->_isFormEnabled);
             update_mo_option('um_enable_type',$this->_otpType);
-            update_mo_option('um_restrict_duplicates_phone',$this->_restrictDuplicatesPhone);
-            update_mo_option('um_restrict_duplicates_userchoose',$this->_restrictDuplicatesUserChoose);
+            update_mo_option('um_restrict_duplicates',$this->_restrictDuplicates);
             update_mo_option('um_is_ajax_form',$this->_isAjaxForm);
             update_mo_option('um_button_text',$this->_buttonText);
             update_mo_option('um_verify_meta_key',$this->_formKey);
         }
-    }
-
-    function restrictDuplicatesPhone()
-    {
-        return get_mo_option('um_restrict_duplicates_phone');
-    }
-
-    function restrictDuplicatesUserChoose()
-    {
-        return get_mo_option('um_restrict_duplicates_userchoose');
     }
 }
 

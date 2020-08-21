@@ -187,9 +187,9 @@ echo'					            : <input class="mo_registration_table_textbox"
 							</li>
 						</ol>
 						<input  type="checkbox" '.$disabled.' 
-						        name="mo_customer_validation_um_restrict_duplicates_userchoose" 
-						        value="1"'.$um_restrict_duplicates_user_choose.'/>
-				        <strong>'. mo_( "Do not allow users to use the same phone number for multiple accounts." ).'</strong>
+						        name="mo_customer_validation_um_restrict_duplicates" 
+						        value="1"'.$um_restrict_duplicates.'/>
+						<strong>'. mo_( "Do not allow users to use the same phone number for multiple accounts." ).'</strong>
 					</div>
 				</p>
 			</div>

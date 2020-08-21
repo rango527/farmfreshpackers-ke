@@ -1,4 +1,0 @@
-[05-Jul-2020 15:38:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/kutenet02/public_html/biolife/wp-content/themes/biolife/index.php:1
-Stack trace:
-#0 {main}
-  thrown in /home/kutenet02/public_html/biolife/wp-content/themes/biolife/index.php on line 1

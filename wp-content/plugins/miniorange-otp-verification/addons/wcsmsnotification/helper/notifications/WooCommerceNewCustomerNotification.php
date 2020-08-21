@@ -26,7 +26,7 @@ class WooCommerceNewCustomerNotification extends SMSNotification
         $this->defaultSmsBody	=  get_wc_option('woocommerce_registration_generate_password','') === 'yes'
                                     ? MoWcAddOnMessages::showMessage(MoWcAddOnMessages::NEW_CUSTOMER_SMS_WITH_PASS)
                                     : MoWcAddOnMessages::showMessage(MoWcAddOnMessages::NEW_CUSTOMER_SMS);
-        $this->availableTags 	= '{site-name},{username},{password},{accountpage-url}';
+        $this->availableTags 	= '{site-name},{username},{accountpage-url}';
         $this->pageHeader 		= mo_("NEW ACCOUNT NOTIFICATION SETTINGS");
         $this->pageDescription 	= mo_("SMS notifications settings for New Account creation SMS sent to the users");
         $this->notificationType = mo_("Customer");
@@ -52,13 +52,11 @@ class WooCommerceNewCustomerNotification extends SMSNotification
         $phoneNumber 	= get_user_meta( $customer_id, 'billing_phone', TRUE );
         $postedPhoneNo  = MoUtility::sanitizeCheck('billing_phone',$_POST);
         $phoneNumber 	= MoUtility::isBlank($phoneNumber) && $postedPhoneNo ? $postedPhoneNo : $phoneNumber;
-        $password 		= ! empty( $customer_data['user_pass'] ) ? $customer_data['user_pass'] : '';
         $accountpage 	= wc_get_page_permalink( 'myaccount' );
 
         $replacedString = [
             'site-name'         => get_bloginfo() ,
             'username'          => $username,
-            'password'          => $password,
             'accountpage-url'   => $accountpage
         ];
         $replacedString = apply_filters('mo_wc_new_customer_notif_string_replace',$replacedString);

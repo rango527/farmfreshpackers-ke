@@ -128,8 +128,8 @@ class WpMemberForm extends FormHandler implements IFormHandler
             $wpmem_themsg = MoMessages::showMessage(MoMessages::PLEASE_VALIDATE);
         }
 
-        if(!$this->validate_submitted($fields,$otpType)) return;
-        $this->validateChallenge($otpType,NULL,$fields['validate_otp']);
+       else if(!$this->validate_submitted($fields,$otpType)) return;
+       $this->validateChallenge($otpType,NULL,$fields['validate_otp']);
     }
 
 

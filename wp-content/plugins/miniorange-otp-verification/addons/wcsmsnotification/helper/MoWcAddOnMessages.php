@@ -19,7 +19,7 @@ final class MoWcAddOnMessages extends BaseMessages
 			self::NEW_CUSTOMER_NOTIF_BODY           => 	mo_( 'Customers are sent a new account SMS notification when '.
 			                                                'they sign up via checkout or account page.'),
 			self::NEW_CUSTOMER_SMS_WITH_PASS	    => 	mo_( 'Thanks for creating an account on {site-name}.%0aYour '.
-			                                                'username is {username}.%0aYour password is: {password}'),
+			                                                'username is {username}.'),
 			self::NEW_CUSTOMER_SMS			        => 	mo_( "Thanks for creating an account on {site-name}.%0aYour ".
 			                                                "username is {username}.%0aLogin Here: {accountpage-url}"),
 

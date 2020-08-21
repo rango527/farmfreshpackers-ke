@@ -95774,9 +95774,9 @@ var allCountries = null;
       number: search,
       per_page: 10
     } : {};
-    return external_this_wp_apiFetch_default()({
-      path: Object(external_this_wp_url_["addQueryArgs"])('/wc-analytics/orders', query)
-    });
+    // return external_this_wp_apiFetch_default()({
+    //   path: Object(external_this_wp_url_["addQueryArgs"])('/wc-analytics/orders', query)
+    // });
   },
   isDebounced: true,
   getOptionIdentifier: function getOptionIdentifier(order) {

@@ -110,20 +110,24 @@ class YourOwnForm extends FormHandler implements IFormHandler
 
     public function _checkValidatedOnSubmit()
     {
+
         if(SessionUtils::isOTPInitialized($this->_formSessionVar)|| $this->validated)
         {
              wp_send_json(MoUtility::createJson(
                self::VALIDATED,
-                MoConstants::SUCCESS_JSON_TYPE   ));
+                MoConstants::SUCCESS_JSON_TYPE
+            ));
         }
+
         else if(!SessionUtils::isOTPInitialized($this->_formSessionVar) && !$this->validated){
             wp_send_json(MoUtility::createJson(
                MoMessages::showMessage(MoMessages::PLEASE_VALIDATE),
                 MoConstants::ERROR_JSON_TYPE
             ));
+
         }
+
      }
-     
     private function _processEmailAndSendOTP($data)
     {
         MoPHPSessions::checkSession();

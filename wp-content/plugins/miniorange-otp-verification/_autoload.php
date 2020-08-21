@@ -14,8 +14,7 @@ define('MOV_URL', plugin_dir_url(__FILE__));
 
 $response = wp_remote_retrieve_body(wp_remote_get(MOV_URL . 'package.json', ['sslverify'=> false]));
 $packageData =  json_decode($response) ;
-if(json_last_error()!==0)
-$packageData = json_decode(initializePackageJson());
+if(json_last_error()!==0)$packageData = json_decode(initializePackageJson());
 
 define('MOV_VERSION', $packageData->version);
 define('MOV_TYPE', $packageData->type);
@@ -120,6 +119,6 @@ function get_mo_class($obj)
 
  
 function initializePackageJson(){
-            $package = json_encode(["name"=>"miniorange-otp-verification","version"=>"3.6","type"=>"MiniOrangeGateway","testMode"=>false,"failMode"=>false,"hostname"=>"https://login.xecurify.com","dCustomerKey"=>"16555","dApiKey"=>"fFd2XcvTGDemZvbw1bcUesNJWEqKbbUq","sslVerify"=>false,"session"=>"TRANSIENT","typePlan"=>"wp_otp_verification_basic_plan","licenseName"=>"WP_OTP_VERIFICATION_PLUGIN"]);
+            $package = json_encode(["name"=>"miniorange-otp-verification","version"=>"3.6.1","type"=>"MiniOrangeGateway","testMode"=>false,"failMode"=>false,"hostname"=>"https:\/\/login.xecurify.com","dCustomerKey"=>"16555","dApiKey"=>"fFd2XcvTGDemZvbw1bcUesNJWEqKbbUq","sslVerify"=>false,"session"=>"TRANSIENT","typePlan"=>"wp_otp_verification_basic_plan","licenseName"=>"WP_OTP_VERIFICATION_PLUGIN"]);
             return $package;
     }

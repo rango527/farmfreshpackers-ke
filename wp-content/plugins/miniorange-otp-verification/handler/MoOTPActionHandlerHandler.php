@@ -48,6 +48,8 @@ class MoOTPActionHandlerHandler extends BaseActionHandler
 			    $this->_mo_validation_feedback_query();	                                                         break;
             case "check_mo_ln":
                 $this->_mo_check_l();											                                 break;
+            case "mo_check_transactions":
+            	$this->_mo_check_transactions();																			 break;
             case "mo_customer_validation_sms_configuration":
                 $this->_mo_configure_sms_template($_POST);														 break;
             case "mo_customer_validation_email_configuration":
@@ -248,6 +250,17 @@ function _mo_configure_custom_form($post){
         if($deactivatingPlugin) deactivate_plugins( [MOV_PLUGIN_NAME]);
     }
 
+	
+    function _mo_check_transactions()
+    {
+        if ( ! empty( $_POST ) && check_admin_referer( 'mo_check_transactions_form', '_nonce' ) ) {
+        MoUtility::_handle_mo_check_ln(true,
+            get_mo_option('admin_customer_key'),
+            get_mo_option('admin_api_key')
+        );
+
+        }
+    }
 
     
     function _mo_check_l()

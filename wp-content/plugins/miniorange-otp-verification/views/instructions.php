@@ -20,34 +20,6 @@ echo'	    <table style="width:100%">
                 <tr>
                     <td colspan="2">
                         <div id="mo_form_instructions">
-                         <div class="mo_otp_note">
-                                <b><div class="mo_otp_dropdown_note" data-toggle="wp_reports">
-                                    '.mo_('NEED TO TRACK TRANSACTIONS?').'
-                                    </div></b>
-                                <div id="wp_reports" hidden>
-                                    <div >
-                                        <b>'.mo_("Follow these steps to view your transactions:").'</b>
-                                        <ol>
-                                            <li>'.mo_("Click on the button below.").'</li>
-                                            <li>'.mo_("Login using the credentials you used to register for this plugin.").'</li>
-                                            <li>'.mo_("You will be presented with <i><b>View Transactions</b></i> page.").'</li>
-                                            <li>'.mo_("From this page you can track your remaining transactions").'</li>
-                                        </ol>
-                                        <div style="margin-top:2%;text-align:center">
-                                            <input  type="button" 
-                                                    title="'.mo_("Need to be registered for this option to be available").'" 
-                                                    value="'.mo_("View Transactions").'" 
-                                                    onclick="extraSettings(\''.MoConstants::HOSTNAME.'\',\''.MoConstants::VIEW_TRANSACTIONS.'\');" 
-                                                    class="button button - primary button - large" style="margin - right: 3%;">
-                                        </div>
-                                    </div>
-                                    <form id="showExtraSettings" action="'.MoConstants::HOSTNAME.'/moas/login" target="_blank" method="post">
-                                       <input type="hidden" id="extraSettingsUsername" name="username" value="'.$email.'" />
-                                       <input type="hidden" id="extraSettingsRedirectURL" name="redirectUrl" value="" />
-                                       <input type="hidden" id="" name="requestOrigin" value="'.$plan_type.'" />
-                                    </form>
-                                </div>
-                            </div>                  
                             <div class="mo_otp_note">
                                 <b><div class="mo_otp_dropdown_note" data-toggle="how_to_use_the_otp_plugin">
                                     '.mo_('HOW DO I USE THE PLUGIN').'
@@ -152,7 +124,35 @@ echo'										</div>
                                 <div id="wp_sms_integration" hidden >
                                     '.mo_( "If you wish to integrate the plugin with your form then you can follow our documentation. Contact us at <a onclick= 'otpSupportOnClick();'><i>".$support."</i></a> or use the support form to send us a query.").'
                                 </div>
-                            </div>              
+                            </div>    
+                            <div class="mo_otp_note">
+                                <b><div class="mo_otp_dropdown_note" data-toggle="wp_reports">
+                                    '.mo_('NEED TO TRACK TRANSACTIONS?').'
+                                    </div></b>
+                                <div id="wp_reports" hidden>
+                                    <div >
+                                        <b>'.mo_("Follow these steps to view your transactions:").'</b>
+                                        <ol>
+                                            <li>'.mo_("Click on the button below.").'</li>
+                                            <li>'.mo_("Login using the credentials you used to register for this plugin.").'</li>
+                                            <li>'.mo_("You will be presented with <i><b>View Transactions</b></i> page.").'</li>
+                                            <li>'.mo_("From this page you can track your remaining transactions").'</li>
+                                        </ol>
+                                        <div style="margin-top:2%;text-align:center">
+                                            <input  type="button" 
+                                                    title="'.mo_("Need to be registered for this option to be available").'" 
+                                                    value="'.mo_("View Transactions").'" 
+                                                    onclick="extraSettings(\''.MoConstants::HOSTNAME.'\',\''.MoConstants::VIEW_TRANSACTIONS.'\');" 
+                                                    class="button button - primary button - large" style="margin - right: 3%;">
+                                        </div>
+                                    </div>
+                                    <form id="showExtraSettings" action="'.MoConstants::HOSTNAME.'/moas/login" target="_blank" method="post">
+                                       <input type="hidden" id="extraSettingsUsername" name="username" value="'.$email.'" />
+                                       <input type="hidden" id="extraSettingsRedirectURL" name="redirectUrl" value="" />
+                                       <input type="hidden" id="" name="requestOrigin" value="'.$plan_type.'" />
+                                    </form>
+                                </div>
+                            </div>                            
                         </div>
                     </td>
                 </tr>

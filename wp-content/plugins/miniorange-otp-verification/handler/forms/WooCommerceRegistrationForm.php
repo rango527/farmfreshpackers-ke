@@ -311,6 +311,9 @@ class WooCommerceRegistrationForm extends FormHandler implements IFormHandler
                 return new WP_Error('billing_phone_error',
                     str_replace("##phone##", $_POST['billing_phone'], $phoneLogic->_get_otp_invalid_format_message()));
             }
+            elseif($this->_restrictDuplicates && $this->isPhoneNumberAlreadyInUse($phone,'billing_phone')) {
+                return new WP_Error('billing_phone_error', MoMessages::showMessage(MoMessages::PHONE_EXISTS));
+            }
             $this->sendChallenge($username,$email,$errors,$_POST['billing_phone'],VerificationType::BOTH,$password);
         }
         return $errors;

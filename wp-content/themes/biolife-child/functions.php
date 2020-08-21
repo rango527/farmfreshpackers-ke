@@ -12,3 +12,9 @@ if (current_user_can('test_user')) {
 }
 }
 
+add_filter('user_contactmethods', 'custom_user_contactmethods');
+function custom_user_contactmethods($user_contact){ 
+  $user_contact['text_phone'] = 'Phone number';
+  
+  return $user_contact;
+}

@@ -61,7 +61,7 @@ class PieRegistrationForm extends FormHandler implements IFormHandler
             $errors->add('mo_otp_verify',MoMessages::showMessage(MoMessages::ENTER_PHONE_DEFAULT));
             return;
         }
-        $this->startTheOTPVerificationProcess($_POST['e_mail'],'+'.$_POST[$this->_phoneFormId]);
+        $this->startTheOTPVerificationProcess($_POST['e_mail'],$_POST[$this->_phoneFormId]);
 
         if(!$this->checkIfVerificationIsComplete()) {
             $errors->add('mo_otp_verify', MoMessages::showMessage(MoMessages::ENTER_VERIFY_CODE));

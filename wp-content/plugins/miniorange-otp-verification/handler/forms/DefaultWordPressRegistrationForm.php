@@ -137,7 +137,8 @@ class DefaultWordPressRegistrationForm extends FormHandler implements IFormHandl
     
     private function checkIfPhoneNumberUnique(WP_Error &$errors,$phone_number)
     {
-        if(strcasecmp($this->_otpType,$this->_typePhoneTag)!==0) return;
+        if(strcasecmp($this->_otpType,$this->_typeEmailTag)===0) return;
+        
         if(MoUtility::isBlank($phone_number) || !MoUtility::validatePhoneNumber($phone_number))
             $errors->add( 'invalid_phone', MoMessages::showMessage(MoMessages::ENTER_PHONE_DEFAULT) );
         elseif($this->_restrictDuplicates && $this->isPhoneNumberAlreadyInUse(trim($phone_number),$this->_phoneKey))

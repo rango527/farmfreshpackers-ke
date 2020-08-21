@@ -3,6 +3,7 @@
 use OTP\Helper\MoConstants;
 use OTP\Helper\MoMessages;
 use OTP\Objects\Tabs;
+use OTP\Helper\MoUtility;
 
 $request_uri    = remove_query_arg(['addon','form','subpage'],$_SERVER['REQUEST_URI']);
 $profile_url	= add_query_arg( array('page' => $tabDetails->_tabDetails[Tabs::ACCOUNT]->_menuSlug), $request_uri );
@@ -11,5 +12,8 @@ $registerMsg    = MoMessages::showMessage(MoMessages::REGISTER_WITH_US,[ "url"=>
 $activationMsg  = MoMessages::showMessage(MoMessages::ACTIVATE_PLUGIN,[ "url"=> $profile_url ]);
 $active_tab 	= $_GET['page'];
 $license_url	= add_query_arg( array('page' => $tabDetails->_tabDetails[Tabs::PRICING]->_menuSlug), $request_uri );
+$nonce          = $adminHandler->getNonceValue();
+$isLoggedIn 	= MoUtility::micr();
+$isFreePlugin	= strcmp(MOV_TYPE, "MiniOrangeGateway")===0;
 
 include MOV_DIR . 'views/navbar.php';
